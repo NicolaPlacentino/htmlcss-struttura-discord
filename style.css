@@ -24,7 +24,13 @@
     
 }
 
+.white-bg{
+    background-color: white;
+}
 
+.gray-bg{
+    background-color: lightgray;
+}
 
 /* header */
 
@@ -71,3 +77,34 @@ header{
     max-width: 800px;
     margin: 0 auto;
 }
+
+/* main */
+
+section{
+    min-height: 300px;
+    padding: var(--4u);
+
+}
+
+.main-element-small{
+    min-height: 400px;
+    background-color: pink;
+    flex-basis:calc(100% / 3);
+    border: 2px dashed black;
+}
+
+.main-element-medium{
+    min-height: 400px;
+    background-color: dodgerblue;
+    flex-grow: 1;
+    border: 2px dashed black;
+}
+
+.main-element-big{
+    min-height: 800px;
+    background-color: green;
+    flex-grow: 1;
+    border: 2px dashed black;
+}
+
+/* footer */
