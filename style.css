@@ -114,19 +114,18 @@ footer{
 }
 
 .footer-element-small, .footer-element-big{
-    margin-top: var(--2u);
+    margin-top: var(--1u);
     margin-bottom: var(--3u);
+    min-height: 400px;
 }
 
-.footer-element-small{
-    min-height: 400px;
+.footer-element-small{  
     flex-basis: 30%;
     background-color: indianred;
     border: 2px dashed black;
 }
 
-.footer-element-big{
-    min-height: 400px;
+.footer-element-big{  
     flex-grow: 1;
     background-color: teal;
     border: 2px dashed black;
@@ -136,4 +135,20 @@ footer{
 .footer-sub-element{
     flex-grow: 1;
     border: 2px dashed white;
+}
+
+.footer-bar{
+    flex-basis: 100%;
+    display: flex;
+    min-height: 60px;
+    background-color: aquamarine;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: var(--2u);
+}
+
+.footer-bar div{
+    background-color: pink;
+    border: 2px dashed black;
+    padding: 5px;
 }
