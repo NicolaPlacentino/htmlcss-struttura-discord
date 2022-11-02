@@ -9,8 +9,10 @@
 /* generic */
 
 :root{
-    --1u: 15px;
-    --2u: 30px;
+    --1u: 10px;
+    --2u: 20px;
+    --3u: 30px;
+    --4u: 40px;
 }
 
 /* utils */
@@ -21,6 +23,8 @@
     margin: 0 auto;
     
 }
+
+
 
 /* header */
 
@@ -52,4 +56,18 @@ header{
 
 #nav-bar div:last-child{
     text-align: right;
+}
+
+#background-img{
+    background-color: darkblue;
+    min-height: 300px;
+    padding: var(--4u);
+}
+
+#background-img article{
+    background-color: violet;
+    border: 2px dashed black;
+    min-height:350px;
+    max-width: 800px;
+    margin: 0 auto;
 }
