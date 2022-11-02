@@ -8,5 +8,48 @@
 
 /* generic */
 
+:root{
+    --1u: 15px;
+    --2u: 30px;
+}
 
 /* utils */
+
+.container{
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+
+/* header */
+
+header{
+    background-color: lightblue;
+}
+
+#nav-bar{
+    display: flex;
+    margin: var(--1u);
+    width: 100%;
+    justify-content: space-between;
+}
+
+#nav-bar *{
+    background-color: goldenrod;
+    border: 2px dashed black;
+    padding: var(--1u);
+}
+
+#nav-bar div{
+    width: 25%;
+}
+
+#nav-bar nav{
+    flex-grow: 1;
+    text-align: center;
+}
+
+#nav-bar div:last-child{
+    text-align: right;
+}
